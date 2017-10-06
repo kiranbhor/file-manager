@@ -1,6 +1,6 @@
 {
     "name": "accunity/filemanager",
-    "description": "",
+    "description": "Asgardcms module for file management",
     "type": "asgard-module",
     "license": "MIT", 
     "require": {

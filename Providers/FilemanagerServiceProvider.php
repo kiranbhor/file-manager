@@ -31,7 +31,7 @@ class FilemanagerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishConfig('filemanager', 'permissions');
-
+        $this->publishConfig('filemanager', 'config');
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
     }
 
